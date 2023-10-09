@@ -4,25 +4,21 @@
 import './App.css'
 import Navbar from './components/navbar'
 import Card from './components/card'
+import Search from './components/search'
+import Sort from './components/sort'
+import Products from './components/products'
+
 
 function App() {
 
   return (
     <>
     <Navbar />
-    <div className="flex flex-wrap gap-2 m-10 ">
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    </div>
+    <Search />
+    <Sort />
+    <Products />
+    
+    
     </>
   )
 }
